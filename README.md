@@ -1,4 +1,4 @@
-✅ **W3C HTML Validation Verified**
+W3C HTML Validation Verified
 
 This document has been validated using the W3C Markup Validation Service.
 
