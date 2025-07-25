@@ -16,6 +16,28 @@ header {
   margin-bottom: 20px;
 }
 
+/* Navigation styling */
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  display: inline-block;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+/* Main heading styling */
+h1 {
+  color: #003366;
+}
+
 /* Main content styling */
 main {
   max-width: 800px;
@@ -25,15 +47,22 @@ main {
   border: 1px solid #ddd;
 }
 
-/* Specific image inside main */
-main img {
+/* Image styling */
+img {
   width: 100%;
   height: auto;
+  border: 1px solid #ddd;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Specific image inside main */
+main img {
   border-radius: 8px;
   margin-top: 15px;
 }
 
-/* Aside styling (right sidebar) */
+/* Aside styling */
 aside {
   width: 250px;
   margin: 20px auto;
@@ -54,7 +83,7 @@ aside img {
   border-radius: 6px;
 }
 
-/* Paragraphs - padding 0 with no units */
+/* Paragraph styling */
 p {
   padding: 0;
 }
@@ -67,5 +96,5 @@ footer {
   padding: 15px 0;
   background-color: #003366;
   color: white;
-  font-size: 0.9em;
+  font-size: 0.9em;
 }
