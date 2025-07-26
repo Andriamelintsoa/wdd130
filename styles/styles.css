@@ -33,7 +33,7 @@ nav a {
   color: white;
   display: inline-block;
   padding: 5px 10px;
-  text-decoration: none; /* Fixes the issue */
+  text-decoration: none;
 }
 
 nav a:hover {
