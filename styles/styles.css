@@ -16,6 +16,13 @@ header {
   margin-bottom: 20px;
 }
 
+/* Logo styling */
+.logo {
+  width: 80px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
 /* Navigation styling */
 nav {
   background-color: #333;
@@ -26,7 +33,7 @@ nav a {
   color: white;
   display: inline-block;
   padding: 5px 10px;
-  text-decoration: none;
+  text-decoration: none; /* Fixes the issue */
 }
 
 nav a:hover {
