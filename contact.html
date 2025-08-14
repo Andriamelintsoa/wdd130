@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact White Water Rafting for trip inquiries, reservations, or feedback. Reach us by phone, email, or through our contact form." />
+  <title>Contact White Water Rafting - IVOLOINA</title>
+  <link rel="stylesheet" href="styles/rafting.css" />
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="White Water Rafting Logo" class="logo" />
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="trips.html">Trips</a></li>
+        <li><a href="contact.html" class="active">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="contact-main">
+    <h1>Contact Us</h1>
+    <p>We'd love to hear from you! Whether you're planning an adventure, have a question about a reservation, or want to share feedback, reach out below.</p>
+
+    <!-- Company Info & Map -->
+    <section class="contact-info">
+      <h2>Get in Touch</h2>
+      <div class="info-map-grid">
+        <address>
+          <strong>White Water Rafting Inc.</strong><br>
+          123 Adventure Trail<br>
+          Cascade Mountains, ID 83456<br>
+          <br>
+          📞 <a href="tel:+261321440063">+261321440063</a><br>
+          ✉️ <a href="mailto:info@whitewaterrafting.com">info@whitewaterrafting.com</a>
+        </address>
+
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60694.9452792273!2d49.31784152659628!3d-18.05144878168477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x21f5a9da569ca225%3A0xcf2f7da40bc2a969!2sParc%20Ivoloina!5e0!3m2!1sfr!2smg!4v1755170381409!5m2!1sfr!2smg"
+            loading="lazy"
+            aria-label="Google Map showing White Water Rafting location in Ivoloina">
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Employee Team -->
+    <section class="employees">
+      <h2>Meet Our Team</h2>
+      <div class="employee-grid">
+        <figure>
+          <img src="images/noela.jpg" alt="Noela Rasoanandrasana, Lead Guide, smiling in rafting gear" />
+          <figcaption>Noela Rasoanandrasana - Lead Guide</figcaption>
+        </figure>
+        <figure>
+          <img src="images/sariaka.jpg" alt="Sariaka Andriamelintsoa, Safety Coordinator, wearing helmet and life jacket" />
+          <figcaption>Sariaka Andriamelintsoa - Safety Coordinator</figcaption>
+        </figure>
+        <figure>
+          <img src="images/anaissah.jpg" alt="Anaissah Roselia, Customer Support, at desk with headset" />
+          <figcaption>Anaissah Roselia - Customer Support</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="contact-form-section">
+      <h2>Send Us a Message</h2>
+      <form action="https://formsubmit.co/your-email@domain.com" method="POST">
+        <!-- Name -->
+        <label for="name">Your Name <span aria-label="required">*</span></label>
+        <input type="text" id="name" name="name" required aria-required="true" />
+
+        <!-- Email -->
+        <label for="email">Your Email <span aria-label="required">*</span></label>
+        <input type="email" id="email" name="email" required aria-required="true" />
+
+        <!-- Purpose -->
+        <fieldset aria-labelledby="purpose-legend">
+          <legend id="purpose-legend">Reason for Contacting</legend>
+          <label><input type="radio" name="purpose" value="General Inquiry" required /> General Inquiry</label>
+          <label><input type="radio" name="purpose" value="Reservation Question" /> Reservation Question</label>
+          <label><input type="radio" name="purpose" value="Website Suggestion" /> Website Suggestion</label>
+        </fieldset>
+
+        <!-- Message -->
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Tell us how we can help"></textarea>
+
+        <!-- Newsletter -->
+        <label class="checkbox-label">
+          <input type="checkbox" name="newsletter" value="yes" />
+          Subscribe to our monthly adventure newsletter
+        </label>
+
+        <!-- Submit -->
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> White Water Rafting Inc.</p>
+    <p><a href="https://app.moqups.com/OkuVJ4QlDAZvflRjVuMpYb0Kt7D2r6Bp/view/page/ad64222d5" target="_blank" rel="noopener">View Wireframe Design</a></p>
+    <div class="social-links">
+      <a href="#" aria-label="Facebook">📘</a>
+      <a href="#" aria-label="Instagram">📷</a>
+      <a href="#" aria-label="Twitter">🐦</a>
+    </div>
+  </footer>
+
+  <!-- Script for Current Year -->
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
